@@ -6,21 +6,21 @@ Output required is to identify which words are anagrams of each other and group 
 
 For example:
 The input will be of the form:
-  enlist
-  sinks
-  red
-  listen
-  sort
-  yellow
-  silent
-  rots
-  skins
-  inlets
+  -enlist
+  -sinks
+  -red
+  -listen
+  -sort
+  -yellow
+  -silent
+  -rots
+  -skins
+  -inlets
 
 The output will be as under:
-  enlist inlets listen silent
-  sinks skins
-  rots sort
-  red
-  yellow
+  -enlist inlets listen silent
+  -sinks skins
+  -rots sort
+  -red
+  -yellow
 
