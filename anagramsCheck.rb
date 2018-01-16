@@ -17,14 +17,14 @@ end
 class String #include user defined module to String class so that we can make calls with the string
     include Anagram
 end
-if ARGV.length != 0 && __FILE__ == $0
+if ARGV.length != 0 && __FILE__ == $0 #check input is a file or not
     filename = ARGV[0] #read from file
 
     words = IO.readlines(filename).map &:chomp #Array of words
     
 else
-    words = Array.new
-    input = gets.chomp
+    words = Array.new 
+    input = gets.chomp #taking input from console and adding to an Array
     while input != '' do
         words << input
         input = gets.chomp
